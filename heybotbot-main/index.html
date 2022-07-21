@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Hey BotBot</title>
+  </head>
+  <body>
+    <section class="game">  
+      <div class="intro">
+        <body> 
+            <div class="overlay"> 
+             <div class="circle rotating">
+                botbot
+             </div> 
+            </div>   
+           </body>
+        <div class="circular-text">
+            <span id="simple_arc">bot bot, psychic and future teller</span>
+        </div>
+      <!--
+        <script>
+            function play() {
+              var audio = document.getElementById("audio");
+              audio.volume = 0.2;
+              audio.play();
+            }
+          </script>
+          -->
+        <button value="PLAY" onclick="play()">click here to know your fortune</button>
+        <audio id="audio" loop audio.volume="0" src="botbot.mp3"></audio>
+      </div>
+
+    <section class="chat">
+        <div class="match fadeOut">
+            <div id="app"></div>
+            <div class="title">hey bot bot</div>
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div class="limit-container">
+                                <div id="chatbox">
+                                    <h5 id="chat-timestamp"></h5>
+                                    <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                                </div>
+                                <!-- User input box -->
+                                <div class="chat-bar-input-block fadeOut">
+                                    <div id="userInput">
+                                        <input id="textInput" class="input-box" type="text" name="msg"
+                                            placeholder="Tap 'Enter' to send a message">
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div id="chat-bar-bottom">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!-- Buttons -->
+                            <div class="buttonChat fadeOutButton">
+                                <button id="helloButton">test</button>   
+                            </div>
+                            <div class="buttonChatTwo fadeOutButtonTwo">
+                                <button class="youAlreadyButton">you already said that</button> 
+                                <button class="hiButton">hi...?</button>                        
+                            </div>
+                            <div class="buttonChatThree fadeOutButtonThree">
+                                <button class="whatButton">what does this have to do with future telling?</button>   
+                            </div>
+                            <div class="buttonChatFour fadeOutButtonFour">
+                                <button class="umButton">um... okay. bye</button> 
+                                <button class="guessButton">guess it was too good to be true</button>                        
+                            </div>
+                            <div class="buttonChatFive fadeOutButtonFive">
+                                <button class="nowButton">Now it just seems like you’re grasping for straws</button> 
+                                <button class="howButton">How?</button>                        
+                            </div>
+                            <div class="buttonChatSix fadeOutButtonSix">
+                                <button class="noTwoButton">No</button> 
+                                <button class="evenButton">Even if I did, telling you kind of feels like cheating?</button>                        
+                            </div>
+                            <div class="buttonChatSeven fadeOutButtonSeven">
+                                <button class="fineButton">Fine?</button> 
+                                <button class="iHateButton">I hate it</button> 
+                                <button class="whoCaresButton">Who cares</button>                        
+                            </div>
+                            <div class="buttonChatEight fadeOutButtonEight">
+                                <button class="coldplayButton">Coldplay's alright</button> 
+                                <button class="lameButton">Lame</button> 
+                                <button class="absoluteButton">Absolute bop</button>                        
+                            </div>
+                            <div class="buttonChatNine fadeOutButtonNine">
+                                <button class="confusedButton">I’m confused</button> 
+                                <button class="honestlyButton">Honestly? Goals</button> 
+                                <button class="gossipButton">That happened to a buddy of mine once</button>                        
+                            </div>
+                        </div>
+                    </div>
+      
+                </div>
+            </div>            
+        </div>
+        <div class="images">
+            <div class="liberty fadeOutImage">
+                <img src="liberty.jpg"></img>
+            </div> 
+            <div class="coldplay fadeOutImage">
+                <img src="coldplay.jpg"></img>
+            </div> 
+            <div class="degrassi fadeOutImage">
+                <img src="degrassi.jpg"></img>
+            </div> 
+        </div>
+    </section>
+    </body>
+    <script>
+        $('#simple_arc').circleType({radius:135});
+    </script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="circletype.min.js"></script>
+    <script src="http://circletype.labwire.ca/js/plugins.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <script src="responses.js"></script>
+    <script src="script.js"></script>
+</html>
